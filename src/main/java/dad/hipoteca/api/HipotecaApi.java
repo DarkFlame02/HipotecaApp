@@ -38,7 +38,13 @@ public class HipotecaApi {
 
     }
 
-
+    public HipotecaResult getCoutas(String query, String query2, String query3) throws IOException {
+        Response<HipotecaResult> result = service.search(query, query2, query3).execute();
+        if (result.isSuccessful()) {
+            return result.body();
+        }
+        return null;
+    }
 
 }
 
