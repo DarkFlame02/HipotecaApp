@@ -2,6 +2,7 @@ package dad.hipoteca.api;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import javafx.beans.property.SimpleStringProperty;
 import okhttp3.ConnectionPool;
 import okhttp3.OkHttpClient;
 import retrofit2.Response;
@@ -12,7 +13,7 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 public class HipotecaApi {
-    private static final String BASE_URL = "https://openlibrary.org/";
+    private static final String BASE_URL = "http://localhost:3000/";
 
     private final HipotecaInterface service;
 
@@ -38,10 +39,10 @@ public class HipotecaApi {
 
     }
 
-    public HipotecaResult getCoutas(String query, String query2, String query3) throws IOException {
-        Response<HipotecaResult> result = service.search(query, query2, query3).execute();
-        if (result.isSuccessful()) {
-            return result.body();
+    public HipotecaResult getCuotas(Double capital, Double intereses, Integer plazos) throws IOException {
+        Response<HipotecaResult> response = service.search(capital, intereses,plazos).execute();
+        if (response.isSuccessful()) {
+            return response.body();
         }
         return null;
     }
