@@ -1,248 +1,608 @@
 {
   "hipoteca": {
-    "capital": 1000,
-    "interes": 5,
-    "plazos": 24
+    "capital": 10000,
+    "interes": 15,
+    "plazos": 60
   },
   "cuotas": [
     {
       "numero": 1,
       "anyo": 1,
       "mes": 1,
-      "capitalInicial": 1000,
-      "intereses": 4.17,
-      "capitalAmortizado": 39.7,
-      "cuota": 43.87,
-      "capitalPendiente": 960.3
+      "capitalInicial": 10000,
+      "intereses": 125,
+      "capitalAmortizado": 112.9,
+      "cuota": 237.9,
+      "capitalPendiente": 9887.18
     },
     {
       "numero": 2,
       "anyo": 1,
       "mes": 2,
-      "capitalInicial": 960.3,
-      "intereses": 4,
-      "capitalAmortizado": 39.87,
-      "cuota": 43.87,
-      "capitalPendiente": 920.43
+      "capitalInicial": 9887.1,
+      "intereses": 123.59,
+      "capitalAmortizado": 114.31,
+      "cuota": 237.9,
+      "capitalPendiente": 9772.79
     },
     {
       "numero": 3,
       "anyo": 1,
       "mes": 3,
-      "capitalInicial": 920.43,
-      "intereses": 3.84,
-      "capitalAmortizado": 40.03,
-      "cuota": 43.87,
-      "capitalPendiente": 880.4
+      "capitalInicial": 9772.79,
+      "intereses": 122.16,
+      "capitalAmortizado": 115.74,
+      "cuota": 237.9,
+      "capitalPendiente": 9657.05
     },
     {
       "numero": 4,
       "anyo": 1,
       "mes": 4,
-      "capitalInicial": 880.4,
-      "intereses": 3.67,
-      "capitalAmortizado": 40.2,
-      "cuota": 43.87,
-      "capitalPendiente": 840.2
+      "capitalInicial": 9657.05,
+      "intereses": 120.71,
+      "capitalAmortizado": 117.19,
+      "cuota": 237.9,
+      "capitalPendiente": 9539.86
     },
     {
       "numero": 5,
       "anyo": 1,
       "mes": 5,
-      "capitalInicial": 840.2,
-      "intereses": 3.5,
-      "capitalAmortizado": 40.37,
-      "cuota": 43.87,
-      "capitalPendiente": 799.83
+      "capitalInicial": 9539.86,
+      "intereses": 119.25,
+      "capitalAmortizado": 118.65,
+      "cuota": 237.9,
+      "capitalPendiente": 9421.21
     },
     {
       "numero": 6,
       "anyo": 1,
       "mes": 6,
-      "capitalInicial": 799.83,
-      "intereses": 3.33,
-      "capitalAmortizado": 40.54,
-      "cuota": 43.87,
-      "capitalPendiente": 759.29
+      "capitalInicial": 9421.21,
+      "intereses": 117.77,
+      "capitalAmortizado": 120.13,
+      "cuota": 237.9,
+      "capitalPendiente": 9301.08
     },
     {
       "numero": 7,
       "anyo": 1,
       "mes": 7,
-      "capitalInicial": 759.29,
-      "intereses": 3.16,
-      "capitalAmortizado": 40.71,
-      "cuota": 43.87,
-      "capitalPendiente": 718.58
+      "capitalInicial": 9301.08,
+      "intereses": 116.26,
+      "capitalAmortizado": 121.64,
+      "cuota": 237.9,
+      "capitalPendiente": 9179.44
     },
     {
       "numero": 8,
       "anyo": 1,
       "mes": 8,
-      "capitalInicial": 718.58,
-      "intereses": 2.99,
-      "capitalAmortizado": 40.88,
-      "cuota": 43.87,
-      "capitalPendiente": 677.7
+      "capitalInicial": 9179.44,
+      "intereses": 114.74,
+      "capitalAmortizado": 123.16,
+      "cuota": 237.9,
+      "capitalPendiente": 9056.28
     },
     {
       "numero": 9,
       "anyo": 1,
       "mes": 9,
-      "capitalInicial": 677.7,
-      "intereses": 2.82,
-      "capitalAmortizado": 41.05,
-      "cuota": 43.87,
-      "capitalPendiente": 636.65
+      "capitalInicial": 9056.28,
+      "intereses": 113.2,
+      "capitalAmortizado": 124.7,
+      "cuota": 237.9,
+      "capitalPendiente": 8931.58
     },
     {
       "numero": 10,
       "anyo": 1,
       "mes": 10,
-      "capitalInicial": 636.65,
-      "intereses": 2.65,
-      "capitalAmortizado": 41.22,
-      "cuota": 43.87,
-      "capitalPendiente": 595.43
+      "capitalInicial": 8931.58,
+      "intereses": 111.64,
+      "capitalAmortizado": 126.26,
+      "cuota": 237.9,
+      "capitalPendiente": 8805.32
     },
     {
       "numero": 11,
       "anyo": 1,
       "mes": 11,
-      "capitalInicial": 595.43,
-      "intereses": 2.48,
-      "capitalAmortizado": 41.39,
-      "cuota": 43.87,
-      "capitalPendiente": 554.04
+      "capitalInicial": 8805.32,
+      "intereses": 110.07,
+      "capitalAmortizado": 127.83,
+      "cuota": 237.9,
+      "capitalPendiente": 8677.49
     },
     {
       "numero": 12,
       "anyo": 1,
       "mes": 12,
-      "capitalInicial": 554.04,
-      "intereses": 2.31,
-      "capitalAmortizado": 41.56,
-      "cuota": 43.87,
-      "capitalPendiente": 512.48
+      "capitalInicial": 8677.49,
+      "intereses": 108.47,
+      "capitalAmortizado": 129.43,
+      "cuota": 237.9,
+      "capitalPendiente": 8548.06
     },
     {
       "numero": 13,
       "anyo": 2,
       "mes": 1,
-      "capitalInicial": 512.48,
-      "intereses": 2.14,
-      "capitalAmortizado": 41.73,
-      "cuota": 43.87,
-      "capitalPendiente": 470.75
+      "capitalInicial": 8548.06,
+      "intereses": 106.85,
+      "capitalAmortizado": 131.05,
+      "cuota": 237.9,
+      "capitalPendiente": 8417.01
     },
     {
       "numero": 14,
       "anyo": 2,
       "mes": 2,
-      "capitalInicial": 470.75,
-      "intereses": 1.96,
-      "capitalAmortizado": 41.91,
-      "cuota": 43.87,
-      "capitalPendiente": 428.84
+      "capitalInicial": 8417.01,
+      "intereses": 105.21,
+      "capitalAmortizado": 132.69,
+      "cuota": 237.9,
+      "capitalPendiente": 8284.32
     },
     {
       "numero": 15,
       "anyo": 2,
       "mes": 3,
-      "capitalInicial": 428.84,
-      "intereses": 1.79,
-      "capitalAmortizado": 42.08,
-      "cuota": 43.87,
-      "capitalPendiente": 386.76
+      "capitalInicial": 8284.32,
+      "intereses": 103.55,
+      "capitalAmortizado": 134.35,
+      "cuota": 237.9,
+      "capitalPendiente": 8149.97
     },
     {
       "numero": 16,
       "anyo": 2,
       "mes": 4,
-      "capitalInicial": 386.76,
-      "intereses": 1.61,
-      "capitalAmortizado": 42.26,
-      "cuota": 43.87,
-      "capitalPendiente": 344.5
+      "capitalInicial": 8149.97,
+      "intereses": 101.87,
+      "capitalAmortizado": 136.03,
+      "cuota": 237.9,
+      "capitalPendiente": 8013.94
     },
     {
       "numero": 17,
       "anyo": 2,
       "mes": 5,
-      "capitalInicial": 344.5,
-      "intereses": 1.44,
-      "capitalAmortizado": 42.43,
-      "cuota": 43.87,
-      "capitalPendiente": 302.07
+      "capitalInicial": 8013.94,
+      "intereses": 100.17,
+      "capitalAmortizado": 137.73,
+      "cuota": 237.9,
+      "capitalPendiente": 7876.21
     },
     {
       "numero": 18,
       "anyo": 2,
       "mes": 6,
-      "capitalInicial": 302.07,
-      "intereses": 1.26,
-      "capitalAmortizado": 42.61,
-      "cuota": 43.87,
-      "capitalPendiente": 259.46
+      "capitalInicial": 7876.21,
+      "intereses": 98.45,
+      "capitalAmortizado": 139.45,
+      "cuota": 237.9,
+      "capitalPendiente": 7736.76
     },
     {
       "numero": 19,
       "anyo": 2,
       "mes": 7,
-      "capitalInicial": 259.46,
-      "intereses": 1.08,
-      "capitalAmortizado": 42.79,
-      "cuota": 43.87,
-      "capitalPendiente": 216.67
+      "capitalInicial": 7736.76,
+      "intereses": 96.71,
+      "capitalAmortizado": 141.19,
+      "cuota": 237.9,
+      "capitalPendiente": 7595.57
     },
     {
       "numero": 20,
       "anyo": 2,
       "mes": 8,
-      "capitalInicial": 216.67,
-      "intereses": 0.9,
-      "capitalAmortizado": 42.97,
-      "cuota": 43.87,
-      "capitalPendiente": 173.7
+      "capitalInicial": 7595.57,
+      "intereses": 94.94,
+      "capitalAmortizado": 142.96,
+      "cuota": 237.9,
+      "capitalPendiente": 7452.61
     },
     {
       "numero": 21,
       "anyo": 2,
       "mes": 9,
-      "capitalInicial": 173.7,
-      "intereses": 0.72,
-      "capitalAmortizado": 43.15,
-      "cuota": 43.87,
-      "capitalPendiente": 130.55
+      "capitalInicial": 7452.61,
+      "intereses": 93.16,
+      "capitalAmortizado": 144.74,
+      "cuota": 237.9,
+      "capitalPendiente": 7307.87
     },
     {
       "numero": 22,
       "anyo": 2,
       "mes": 10,
-      "capitalInicial": 130.55,
-      "intereses": 0.54,
-      "capitalAmortizado": 43.33,
-      "cuota": 43.87,
-      "capitalPendiente": 87.22
+      "capitalInicial": 7307.87,
+      "intereses": 91.35,
+      "capitalAmortizado": 146.55,
+      "cuota": 237.9,
+      "capitalPendiente": 7161.32
     },
     {
       "numero": 23,
       "anyo": 2,
       "mes": 11,
-      "capitalInicial": 87.22,
-      "intereses": 0.36,
-      "capitalAmortizado": 43.51,
-      "cuota": 43.87,
-      "capitalPendiente": 43.71
+      "capitalInicial": 7161.32,
+      "intereses": 89.52,
+      "capitalAmortizado": 148.38,
+      "cuota": 237.9,
+      "capitalPendiente": 7012.94
     },
     {
       "numero": 24,
       "anyo": 2,
       "mes": 12,
-      "capitalInicial": 43.71,
-      "intereses": 0.18,
-      "capitalAmortizado": 43.71,
-      "cuota": 43.89,
+      "capitalInicial": 7012.94,
+      "intereses": 87.66,
+      "capitalAmortizado": 150.24,
+      "cuota": 237.9,
+      "capitalPendiente": 6862.7
+    },
+    {
+      "numero": 25,
+      "anyo": 3,
+      "mes": 1,
+      "capitalInicial": 6862.7,
+      "intereses": 85.78,
+      "capitalAmortizado": 152.12,
+      "cuota": 237.9,
+      "capitalPendiente": 6710.58
+    },
+    {
+      "numero": 26,
+      "anyo": 3,
+      "mes": 2,
+      "capitalInicial": 6710.58,
+      "intereses": 83.88,
+      "capitalAmortizado": 154.02,
+      "cuota": 237.9,
+      "capitalPendiente": 6556.56
+    },
+    {
+      "numero": 27,
+      "anyo": 3,
+      "mes": 3,
+      "capitalInicial": 6556.56,
+      "intereses": 81.96,
+      "capitalAmortizado": 155.94,
+      "cuota": 237.9,
+      "capitalPendiente": 6400.62
+    },
+    {
+      "numero": 28,
+      "anyo": 3,
+      "mes": 4,
+      "capitalInicial": 6400.62,
+      "intereses": 80.01,
+      "capitalAmortizado": 157.89,
+      "cuota": 237.9,
+      "capitalPendiente": 6242.73
+    },
+    {
+      "numero": 29,
+      "anyo": 3,
+      "mes": 5,
+      "capitalInicial": 6242.73,
+      "intereses": 78.03,
+      "capitalAmortizado": 159.87,
+      "cuota": 237.9,
+      "capitalPendiente": 6082.86
+    },
+    {
+      "numero": 30,
+      "anyo": 3,
+      "mes": 6,
+      "capitalInicial": 6082.86,
+      "intereses": 76.04,
+      "capitalAmortizado": 161.86,
+      "cuota": 237.9,
+      "capitalPendiente": 5921
+    },
+    {
+      "numero": 31,
+      "anyo": 3,
+      "mes": 7,
+      "capitalInicial": 5921,
+      "intereses": 74.01,
+      "capitalAmortizado": 163.89,
+      "cuota": 237.9,
+      "capitalPendiente": 5757.11
+    },
+    {
+      "numero": 32,
+      "anyo": 3,
+      "mes": 8,
+      "capitalInicial": 5757.11,
+      "intereses": 71.96,
+      "capitalAmortizado": 165.94,
+      "cuota": 237.9,
+      "capitalPendiente": 5591.17
+    },
+    {
+      "numero": 33,
+      "anyo": 3,
+      "mes": 9,
+      "capitalInicial": 5591.17,
+      "intereses": 69.89,
+      "capitalAmortizado": 168.01,
+      "cuota": 237.9,
+      "capitalPendiente": 5423.16
+    },
+    {
+      "numero": 34,
+      "anyo": 3,
+      "mes": 10,
+      "capitalInicial": 5423.16,
+      "intereses": 67.79,
+      "capitalAmortizado": 170.11,
+      "cuota": 237.9,
+      "capitalPendiente": 5253.05
+    },
+    {
+      "numero": 35,
+      "anyo": 3,
+      "mes": 11,
+      "capitalInicial": 5253.05,
+      "intereses": 65.66,
+      "capitalAmortizado": 172.24,
+      "cuota": 237.9,
+      "capitalPendiente": 5080.81
+    },
+    {
+      "numero": 36,
+      "anyo": 3,
+      "mes": 12,
+      "capitalInicial": 5080.81,
+      "intereses": 63.51,
+      "capitalAmortizado": 174.39,
+      "cuota": 237.9,
+      "capitalPendiente": 4906.42
+    },
+    {
+      "numero": 37,
+      "anyo": 4,
+      "mes": 1,
+      "capitalInicial": 4906.42,
+      "intereses": 61.33,
+      "capitalAmortizado": 176.57,
+      "cuota": 237.9,
+      "capitalPendiente": 4729.85
+    },
+    {
+      "numero": 38,
+      "anyo": 4,
+      "mes": 2,
+      "capitalInicial": 4729.85,
+      "intereses": 59.12,
+      "capitalAmortizado": 178.78,
+      "cuota": 237.9,
+      "capitalPendiente": 4551.07
+    },
+    {
+      "numero": 39,
+      "anyo": 4,
+      "mes": 3,
+      "capitalInicial": 4551.07,
+      "intereses": 56.89,
+      "capitalAmortizado": 181.01,
+      "cuota": 237.9,
+      "capitalPendiente": 4370.06
+    },
+    {
+      "numero": 40,
+      "anyo": 4,
+      "mes": 4,
+      "capitalInicial": 4370.06,
+      "intereses": 54.63,
+      "capitalAmortizado": 183.27,
+      "cuota": 237.9,
+      "capitalPendiente": 4186.79
+    },
+    {
+      "numero": 41,
+      "anyo": 4,
+      "mes": 5,
+      "capitalInicial": 4186.79,
+      "intereses": 52.33,
+      "capitalAmortizado": 185.57,
+      "cuota": 237.9,
+      "capitalPendiente": 4001.22
+    },
+    {
+      "numero": 42,
+      "anyo": 4,
+      "mes": 6,
+      "capitalInicial": 4001.22,
+      "intereses": 50.02,
+      "capitalAmortizado": 187.88,
+      "cuota": 237.9,
+      "capitalPendiente": 3813.34
+    },
+    {
+      "numero": 43,
+      "anyo": 4,
+      "mes": 7,
+      "capitalInicial": 3813.34,
+      "intereses": 47.67,
+      "capitalAmortizado": 190.23,
+      "cuota": 237.9,
+      "capitalPendiente": 3623.11
+    },
+    {
+      "numero": 44,
+      "anyo": 4,
+      "mes": 8,
+      "capitalInicial": 3623.11,
+      "intereses": 45.29,
+      "capitalAmortizado": 192.61,
+      "cuota": 237.9,
+      "capitalPendiente": 3430.5
+    },
+    {
+      "numero": 45,
+      "anyo": 4,
+      "mes": 9,
+      "capitalInicial": 3430.5,
+      "intereses": 42.88,
+      "capitalAmortizado": 195.02,
+      "cuota": 237.9,
+      "capitalPendiente": 3235.48
+    },
+    {
+      "numero": 46,
+      "anyo": 4,
+      "mes": 10,
+      "capitalInicial": 3235.48,
+      "intereses": 40.44,
+      "capitalAmortizado": 197.46,
+      "cuota": 237.9,
+      "capitalPendiente": 3038.02
+    },
+    {
+      "numero": 47,
+      "anyo": 4,
+      "mes": 11,
+      "capitalInicial": 3038.02,
+      "intereses": 37.98,
+      "capitalAmortizado": 199.92,
+      "cuota": 237.9,
+      "capitalPendiente": 2838.1
+    },
+    {
+      "numero": 48,
+      "anyo": 4,
+      "mes": 12,
+      "capitalInicial": 2838.1,
+      "intereses": 35.48,
+      "capitalAmortizado": 202.42,
+      "cuota": 237.9,
+      "capitalPendiente": 2635.68
+    },
+    {
+      "numero": 49,
+      "anyo": 5,
+      "mes": 1,
+      "capitalInicial": 2635.68,
+      "intereses": 32.95,
+      "capitalAmortizado": 204.95,
+      "cuota": 237.9,
+      "capitalPendiente": 2430.73
+    },
+    {
+      "numero": 50,
+      "anyo": 5,
+      "mes": 2,
+      "capitalInicial": 2430.73,
+      "intereses": 30.38,
+      "capitalAmortizado": 207.52,
+      "cuota": 237.9,
+      "capitalPendiente": 2223.21
+    },
+    {
+      "numero": 51,
+      "anyo": 5,
+      "mes": 3,
+      "capitalInicial": 2223.21,
+      "intereses": 27.79,
+      "capitalAmortizado": 210.11,
+      "cuota": 237.9,
+      "capitalPendiente": 2013.1
+    },
+    {
+      "numero": 52,
+      "anyo": 5,
+      "mes": 4,
+      "capitalInicial": 2013.1,
+      "intereses": 25.16,
+      "capitalAmortizado": 212.74,
+      "cuota": 237.9,
+      "capitalPendiente": 1800.36
+    },
+    {
+      "numero": 53,
+      "anyo": 5,
+      "mes": 5,
+      "capitalInicial": 1800.36,
+      "intereses": 22.5,
+      "capitalAmortizado": 215.4,
+      "cuota": 237.9,
+      "capitalPendiente": 1584.96
+    },
+    {
+      "numero": 54,
+      "anyo": 5,
+      "mes": 6,
+      "capitalInicial": 1584.96,
+      "intereses": 19.81,
+      "capitalAmortizado": 218.09,
+      "cuota": 237.9,
+      "capitalPendiente": 1366.87
+    },
+    {
+      "numero": 55,
+      "anyo": 5,
+      "mes": 7,
+      "capitalInicial": 1366.87,
+      "intereses": 17.09,
+      "capitalAmortizado": 220.81,
+      "cuota": 237.9,
+      "capitalPendiente": 1146.06
+    },
+    {
+      "numero": 56,
+      "anyo": 5,
+      "mes": 8,
+      "capitalInicial": 1146.06,
+      "intereses": 14.33,
+      "capitalAmortizado": 223.57,
+      "cuota": 237.9,
+      "capitalPendiente": 922.49
+    },
+    {
+      "numero": 57,
+      "anyo": 5,
+      "mes": 9,
+      "capitalInicial": 922.49,
+      "intereses": 11.53,
+      "capitalAmortizado": 226.37,
+      "cuota": 237.9,
+      "capitalPendiente": 696.12
+    },
+    {
+      "numero": 58,
+      "anyo": 5,
+      "mes": 10,
+      "capitalInicial": 696.12,
+      "intereses": 8.7,
+      "capitalAmortizado": 229.2,
+      "cuota": 237.9,
+      "capitalPendiente": 466.92
+    },
+    {
+      "numero": 59,
+      "anyo": 5,
+      "mes": 11,
+      "capitalInicial": 466.92,
+      "intereses": 5.84,
+      "capitalAmortizado": 232.06,
+      "cuota": 237.9,
+      "capitalPendiente": 234.86
+    },
+    {
+      "numero": 60,
+      "anyo": 5,
+      "mes": 12,
+      "capitalInicial": 234.86,
+      "intereses": 2.94,
+      "capitalAmortizado": 234.86,
+      "cuota": 237.8,
       "capitalPendiente": 0
     }
   ]

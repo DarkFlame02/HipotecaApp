@@ -19,7 +19,6 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.List;
 import java.util.ResourceBundle;
-import java.util.stream.Collectors;
 
 public class RootController implements Initializable {
 
@@ -124,8 +123,7 @@ public class RootController implements Initializable {
             List<Cuotas> cuotas = result.getCuotas()
                     .stream()
                     .map(Cuotas::new)
-                    .collect(Collectors.toList());
-                    //.toList();
+                    .toList();
             this.cuotas.setAll(cuotas);
             cuotasTable.refresh();
         } catch (IOException e) {

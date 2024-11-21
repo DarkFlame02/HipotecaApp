@@ -2,7 +2,6 @@ package dad.hipoteca.api;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import javafx.beans.property.SimpleStringProperty;
 import okhttp3.ConnectionPool;
 import okhttp3.OkHttpClient;
 import retrofit2.Response;
