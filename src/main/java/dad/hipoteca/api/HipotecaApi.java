@@ -38,7 +38,7 @@ public class HipotecaApi {
 
     }
 
-    public HipotecaResult getCuotas(Double capital, Double intereses, Integer plazos) throws IOException {
+    public HipotecaResult getCuotas(Double capital, Double intereses, Double plazos) throws IOException {
         Response<HipotecaResult> response = service.search(capital, intereses,plazos).execute();
         if (response.isSuccessful()) {
             return response.body();

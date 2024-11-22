@@ -8,6 +8,6 @@ public interface HipotecaInterface {
 
     // localhost:3000/hipoteca?capital=<capital>&intereses=<intereses>&plazos=<años>
     @GET("hipoteca")
-    Call<HipotecaResult> search(@Query("capital") Double capital, @Query("intereses") Double intereses, @Query("plazos") Integer plazos);
+    Call<HipotecaResult> search(@Query("capital") Double capital, @Query("intereses") Double intereses, @Query("plazos") Double plazos);
 
 }

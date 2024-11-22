@@ -117,7 +117,7 @@ public class RootController implements Initializable {
         try {
             double capital = Double.parseDouble(calcularHipotecaCapital.get());
             double intereses = Double.parseDouble(calcularHipotecaIntereses.get());
-            int años = Integer.parseInt(calcularHipotecaAños.get());
+            double años = Double.parseDouble(calcularHipotecaAños.get());
             HipotecaResult result = hipotecaApi.getCuotas(capital, intereses, años);
 
             List<Cuotas> cuotas = result.getCuotas()
